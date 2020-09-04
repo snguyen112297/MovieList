@@ -1,21 +1,32 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { FlatList } from 'react-native-gesture-handler';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer } from 'react-navigation';
+import MovieList from './src/screens/MovieList';
+import MI from './src/screens/MI';
+import IT from './src/screens/IT';
+import THG from './src/screens/THG';
+import SLG from './src/screens/SLG';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+const navigator = createStackNavigator(
+  {
+    MovieList: MovieList,
+    MI: MI,
+    IT: IT,
+    THG: THG,
+    SLG: SLG,
   },
-});
+  {
+    initialRouteName: "MovieList",
+    defaultNavigationOptions: {
+      title: "Movie List"
+    }
+  }
+);
+
+export default createAppContainer(navigator);
+
+
