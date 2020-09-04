@@ -2,9 +2,6 @@
 
 An prototype of an application displaying a list of movies. Upon clicking the name of a movie, the user is directed to its poster and its description
 
-* Known Glitches:
-Image displaying not working. Expo-CLI shows image not found despite the image being in the assets folder. 
-
 * Screenshots
 
 
