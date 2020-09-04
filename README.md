@@ -4,16 +4,15 @@ An prototype of an application displaying a list of movies. Upon clicking the na
 
 * Screenshots
 
-
 Movie List
 
 
-[![Screenshot-1599238359.png](https://i.postimg.cc/vBcbc195/Screenshot-1599238359.png)](https://postimg.cc/jw0G1SMj)
+[![Screenshot-1599240717.png](https://i.postimg.cc/436CF6Gf/Screenshot-1599240717.png)](https://postimg.cc/SXxtnzj3)
 
 
 Movie Description
 
-[![Screenshot-1599238363.png](https://i.postimg.cc/mk94y0mD/Screenshot-1599238363.png)](https://postimg.cc/rRq78YXX)
+[![Screenshot-1599240721.png](https://i.postimg.cc/jdpF0DZL/Screenshot-1599240721.png)](https://postimg.cc/KR5Nt8X2)
 
 
 * Prerequisites
